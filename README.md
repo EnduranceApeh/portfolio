@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Endurance Apeh | Personal Portfolio
 
-## Getting Started
+A modern, fast, and highly interactive personal portfolio website showcasing my skills, projects, and professional experience as a Frontend Developer. Built with Next.js 14, React, TypeScript, Tailwind CSS, and Framer Motion.
 
-First, run the development server:
+## 🌟 Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Modern Tech Stack:** Leveraging the power of Next.js App Router, React, and TypeScript for robust architecture.
+- **Sleek UI/UX Design:** Beautifully styled with Tailwind CSS, featuring a polished dark mode and smooth scroll-triggered animations via Framer Motion.
+- **Functional Contact Form:** Seamlessly integrated with the Resend Email service for direct communication.
+- **Projects Showcase:** Highlights key featured projects such as the MentorConnect platform, Online Gadget Store, and Food Ordering App.
+- **Fully Responsive:** Perfectly optimized for all device screens (mobile, tablet, and desktop).
+- **SEO & Performance Optimized:** Strictly adheres to accessibility standards, core web vitals, and metadata best practices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Built With
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** [Next.js 14](https://nextjs.org/)
+- **Core Library:** [React](https://react.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Email Service:** [Resend API](https://resend.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started Locally
 
-## Learn More
+To run this project on your local machine, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/EnduranceApeh/portfolio.git
+   cd portfolio
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or yarn / pnpm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Set up Environment Variables:**
+   Create a `.env` file in the root directory. You will need a Resend API key for the contact form to work:
+   ```env
+   RESEND_API_KEY=your_resend_api_key_here
+   ```
 
-## Deploy on Vercel
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. **Open the App:**
+   Visit [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📫 Connect with Me
+
+- **Email:** [apehendurance2@gmail.com](mailto:apehendurance2@gmail.com)
+- **GitHub:** [EnduranceApeh](https://github.com/EnduranceApeh)
+
+---
+
+*Designed and engineered by Endurance Apeh.*
